@@ -1,0 +1,135 @@
+
+body {
+    background-color: #D5E1EF;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 350px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 20px;  
+    margin-top: 15vh;
+    font-family: ˜Outfit˜;
+    
+}
+
+main {
+    background-color: rgb(252, 252, 252);
+    background-size: 350px;  
+    background-repeat: no-repeat;
+    width: 280px;   
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;        
+    border-radius: 10px;
+    align-self: center;
+    margin-left: 356%;
+}
+
+main .main-img {
+    align-self: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 245px;
+    height: 245px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}  
+    
+main #phrase-one {
+    font-style: normal;
+    font-size: 15px;    
+    font-weight: bold; 
+    color: black;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+main #phrase-two {
+    font-style: italic;
+    font-size: 12px; 
+    color: rgb(107, 107, 107);
+    margin-top: 2vh;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer {
+    background-color: black;
+    background-size: fill;
+    height: 50px;
+    width: 189vh;
+    display: flex;
+    position: absolute;    
+    left: 0%;
+    bottom:0px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+footer #footer-txt{
+    color: white;
+    margin-left: 25px;
+    font-size: 15px;
+
+}
+
+span{
+    color:rgb(81, 173, 248)
+}
+
+footer #footer-complement{
+    color: white;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.social-media li a{    
+    width: 150px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    transition: opacity 0.3s ease-in-out;
+    margin-right: 25px;
+
+}
+
+.social-media li a:hover{
+    opacity: 0.8;
+}
+
+.social-media .frontendmentor{
+    background-color: #06aec1;
+    border-radius: 10px;
+}
+
+.social-media .linkedin{
+    background-color: #184ccf;
+    border-radius: 10px;
+}
+
+.social-media .github{
+    background-color: #545454;
+    border-radius: 10px;
+}
